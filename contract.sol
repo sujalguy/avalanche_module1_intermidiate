@@ -14,7 +14,7 @@ contract myContract {
         assert(newrupee < 1000);
 
         // Setting the value
-        if(newrupee == 250){
+        if(newrupee == 150){
             // Using revert() to revert the transaction
         revert("This operation is not allowed"); 
         }
